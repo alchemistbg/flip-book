@@ -4,13 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>3D Flip Book</title>
     <link rel="stylesheet" href="styles.css">
     <script src="scripts.js" defer></script>
 </head>
 <body>
-    <h1>
-        Flip Book
-    </h1>
+    
+    <header>
+        <h1>Flip Book</h1>
+    </header>
+
+    <main>
+        <div class="book-container">
+
+            <button id="prev-btn" class="prev-btn">
+                <i class="fas fa-chevron-circle-left"></i>
+            </button>
+            
+            <div id="book" class="book">
+                <div id="paper1" class="paper">
+                    <div class="front">
+                        <div id="front1" class="front-content">
+                            <h1>Front 1</h1>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="back1 back-content">
+                            <h1>Back 1</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="paper2" class="paper">
+                    <div class="front">
+                        <div id="front2" class="front-content">
+                            <h1>Front 2</h1>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="back2 back-content">
+                            <h1>Back 2</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="paper3" class="paper">
+                    <div class="front">
+                        <div id="front3" class="front-content">
+                            <h1>Front 3</h1>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="back3 back-content">
+                            <h1>Back 3</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button id="next-btn" class="next-btn">
+                <i class="fas fa-chevron-circle-right"></i>
+            
+            </button>
+        </div>
+    </main>
+
+    <footer>
+        <h4>Footer</h4>
+    </footer>
+
 </body>
 </html>
